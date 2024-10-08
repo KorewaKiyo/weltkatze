@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESDA25P35")(type "KiCad")(uri "${KIPRJMOD}/lib/ESDA25P35/2024-09-27_13-09-20.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDA25W")(type "KiCad")(uri "${KIPRJMOD}/lib/ESDA25W/2024-09-27_13-23-13.kicad_sym")(options "")(descr ""))
+  (lib (name "L6924UTR")(type "KiCad")(uri "${KIPRJMOD}/lib/L6924UTR/2024-10-07_15-52-56.kicad_sym")(options "")(descr ""))
+)
