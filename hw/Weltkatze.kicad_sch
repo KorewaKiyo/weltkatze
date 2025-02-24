@@ -11,15 +11,9 @@
 		(color 0 0 0 0)
 		(uuid "08948a8f-c9aa-4b20-821d-5b33492aac36")
 	)
-	(junction
-		(at 125.095 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc612e33-c9a0-4807-9b96-d5be09e017f4")
-	)
 	(wire
 		(pts
-			(xy 120.65 62.23) (xy 125.095 62.23)
+			(xy 120.65 67.31) (xy 125.095 67.31)
 		)
 		(stroke
 			(width 0)
@@ -29,7 +23,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 120.65 77.47)
+			(xy 116.205 80.645) (xy 120.65 80.645)
 		)
 		(stroke
 			(width 0)
@@ -39,17 +33,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 88.9) (xy 123.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43461b0e-ac82-477c-a6d1-525e5850506e")
-	)
-	(wire
-		(pts
-			(xy 113.03 83.82) (xy 120.65 83.82)
+			(xy 116.205 90.17) (xy 123.19 90.17)
 		)
 		(stroke
 			(width 0)
@@ -59,17 +43,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 120.65 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c9166ee-c86c-4912-a175-2a7a5b192f9b")
-	)
-	(wire
-		(pts
-			(xy 134.62 69.85) (xy 134.62 84.455)
+			(xy 134.62 74.93) (xy 134.62 84.455)
 		)
 		(stroke
 			(width 0)
@@ -79,7 +53,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 77.47) (xy 120.65 62.23)
+			(xy 120.65 80.645) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
@@ -89,33 +63,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 62.23) (xy 125.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94de3d01-34d6-4912-97bf-ca1568f2ca16")
-	)
-	(wire
-		(pts
-			(xy 113.03 81.28) (xy 121.92 81.28)
+			(xy 116.205 87.63) (xy 123.19 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1caf1f5-5474-4eda-9726-9297fa0da7c4")
-	)
-	(wire
-		(pts
-			(xy 121.92 81.28) (xy 121.92 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b067fb4d-71e1-4b97-b406-eda0d74e2b3d")
 	)
 	(wire
 		(pts
@@ -126,16 +80,6 @@
 			(type default)
 		)
 		(uuid "d4e7589e-087e-4fe0-8f2a-336dfb293efc")
-	)
-	(wire
-		(pts
-			(xy 121.92 86.36) (xy 123.19 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2b1980f-f1ac-4617-b86e-49a509dc43d3")
 	)
 	(wire
 		(pts
@@ -187,7 +131,7 @@
 			)
 		)
 		(pin "ESP_DP" input
-			(at 123.19 86.36 180)
+			(at 123.19 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,7 +151,7 @@
 			(uuid "6e5c48ba-e888-4f38-8160-4ba686d2766d")
 		)
 		(pin "ESP_DN" input
-			(at 123.19 88.9 180)
+			(at 123.19 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +179,7 @@
 		)
 	)
 	(sheet
-		(at 90.805 71.755)
+		(at 93.98 78.74)
 		(size 22.225 17.145)
 		(fields_autoplaced yes)
 		(stroke
@@ -247,7 +191,7 @@
 		)
 		(uuid "3f5409d7-86b0-49a5-819a-a592e97a9128")
 		(property "Sheetname" "USB"
-			(at 90.805 71.0434 0)
+			(at 93.98 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,7 +200,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 90.805 89.4846 0)
+			(at 93.98 96.4696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -265,7 +209,7 @@
 			)
 		)
 		(pin "USB_DP" input
-			(at 113.03 81.28 0)
+			(at 116.205 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -275,7 +219,7 @@
 			(uuid "57ad5180-8e8c-49fd-bc6c-3c0297b0c085")
 		)
 		(pin "USB_VBUS" input
-			(at 113.03 77.47 0)
+			(at 116.205 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +229,7 @@
 			(uuid "3282ecf3-1918-4711-a866-7170c08a3d8c")
 		)
 		(pin "USB_DN" input
-			(at 113.03 83.82 0)
+			(at 116.205 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +295,7 @@
 		)
 	)
 	(sheet
-		(at 125.095 58.42)
+		(at 125.095 63.5)
 		(size 15.875 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -363,7 +307,7 @@
 		)
 		(uuid "e47e1b9a-d00f-4588-97a8-24e6f6c0e104")
 		(property "Sheetname" "Power"
-			(at 125.095 57.7084 0)
+			(at 125.095 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -372,7 +316,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 125.095 70.4346 0)
+			(at 125.095 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +325,7 @@
 			)
 		)
 		(pin "USB_VBUS" input
-			(at 125.095 62.23 180)
+			(at 125.095 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +335,7 @@
 			(uuid "4cc959bc-c806-444d-ab8b-d2eac6794ce3")
 		)
 		(pin "VBAT" input
-			(at 134.62 69.85 270)
+			(at 134.62 74.93 270)
 			(effects
 				(font
 					(size 1.27 1.27)
