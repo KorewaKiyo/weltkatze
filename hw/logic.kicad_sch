@@ -3804,7 +3804,7 @@
 		(dnp no)
 		(uuid "1e9ea265-5a70-4eea-94a9-3e53fcd8c7c4")
 		(property "Reference" "C4"
-			(at 97.028 43.18 90)
+			(at 96.774 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3878,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0"
 			(at 180.34 74.93 90)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 		(dnp no)
 		(uuid "87fd5c83-f705-4c18-92fc-740493f43b2a")
 		(property "Reference" "SW1"
-			(at 97.282 43.18 0)
+			(at 97.536 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,8 +5429,8 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
-			(at 109.982 57.15 90)
+		(property "Value" "10k"
+			(at 112.014 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +5843,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 103.124 52.07 0)
+			(at 105.664 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0"
 			(at 180.34 77.47 90)
 			(effects
 				(font
