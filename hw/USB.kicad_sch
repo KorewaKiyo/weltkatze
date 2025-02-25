@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "55d1d477-6669-4515-a579-8fdb737e6605")
 	(paper "A4")
+	(title_block
+		(title "Weltkatze")
+		(date "2025-02-25")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
@@ -1686,7 +1691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
 			(at 49.53 83.82 0)
 			(effects
 				(font
@@ -1998,7 +2003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 77.978 90)
 			(effects
 				(font
@@ -2067,7 +2072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.18 63.1952 0)
 			(effects
 				(font
@@ -2136,7 +2141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 75.438 90)
 			(effects
 				(font

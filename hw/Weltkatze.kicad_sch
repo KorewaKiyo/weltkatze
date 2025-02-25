@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "fdc0a18c-8dff-4a45-8df6-416fbc4de6f0")
 	(paper "A4")
+	(title_block
+		(title "Weltkatze")
+		(date "2025-02-25")
+		(rev "1")
+		(comment 1 "A light up Zigbee kitty")
+	)
 	(lib_symbols)
 	(junction
 		(at 134.62 84.455)

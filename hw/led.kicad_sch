@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "2771c91f-a69a-4651-b41d-cd8c3a17e084")
 	(paper "A4")
+	(title_block
+		(title "Weltkatze")
+		(date "2025-02-25")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
@@ -1063,12 +1068,6 @@
 		(uuid "5623365a-9dfb-4d93-9c37-6799e0c4de56")
 	)
 	(junction
-		(at 238.76 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56809db2-aa4f-4d9a-b909-a146d74b87a1")
-	)
-	(junction
 		(at 91.44 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1177,12 +1176,6 @@
 		(uuid "a3824b00-88a5-4202-8bd5-97f86b476030")
 	)
 	(junction
-		(at 256.54 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aabef6df-8797-43e8-9d17-ddaf5f40a279")
-	)
-	(junction
 		(at 53.34 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1193,12 +1186,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ace9428c-fa37-49a6-8750-b7fe33fd036b")
-	)
-	(junction
-		(at 256.54 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b49e4b37-d7d5-4792-94cb-ad5fe7937435")
 	)
 	(junction
 		(at 165.1 113.03)
@@ -1268,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 97.79) (xy 248.92 97.79)
+			(xy 246.38 97.79) (xy 254 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1335,16 +1322,6 @@
 			(type default)
 		)
 		(uuid "13659c64-70c0-40d6-a890-96ff75d7472e")
-	)
-	(wire
-		(pts
-			(xy 256.54 90.17) (xy 269.24 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155d0aba-ba67-4c7d-b872-ee20f1e26a40")
 	)
 	(wire
 		(pts
@@ -1428,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 106.68) (xy 269.24 100.33)
+			(xy 254 100.33) (xy 254 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1528,16 +1505,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 105.41) (xy 256.54 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400cb0f9-ebd4-4ac9-8dcc-e511e3121204")
-	)
-	(wire
-		(pts
 			(xy 147.32 90.17) (xy 165.1 90.17)
 		)
 		(stroke
@@ -1588,23 +1555,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 90.17) (xy 256.54 90.17)
+			(xy 238.76 90.17) (xy 254 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "468be666-4b7e-48e2-869d-b40698718f4a")
-	)
-	(wire
-		(pts
-			(xy 256.54 88.9) (xy 256.54 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a23f8c0-433a-4882-bcf6-7e27b5a166c2")
 	)
 	(wire
 		(pts
@@ -1675,16 +1632,6 @@
 			(type default)
 		)
 		(uuid "5359c968-1a9a-4794-9ee6-d15a2eafa7f1")
-	)
-	(wire
-		(pts
-			(xy 256.54 106.68) (xy 269.24 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54cae069-eb08-4c45-8f7b-7161d2ffd862")
 	)
 	(wire
 		(pts
@@ -1808,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 90.17) (xy 269.24 95.25)
+			(xy 254 90.17) (xy 254 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1968,16 +1915,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 97.79) (xy 269.24 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96e53157-94ea-4cbe-b4fa-5bead3c66c8b")
-	)
-	(wire
-		(pts
 			(xy 109.22 105.41) (xy 109.22 113.03)
 		)
 		(stroke
@@ -2018,17 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 83.82) (xy 256.54 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab13ce17-d596-44aa-b521-3d8a2f6800f5")
-	)
-	(wire
-		(pts
-			(xy 238.76 113.03) (xy 256.54 113.03)
+			(xy 238.76 113.03) (xy 254 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2165,16 +2092,6 @@
 			(type default)
 		)
 		(uuid "de7c2c55-da1a-40a8-ba22-102db6574b79")
-	)
-	(wire
-		(pts
-			(xy 256.54 106.68) (xy 256.54 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e31ebc5f-36c9-4eff-ae9d-800973900255")
 	)
 	(wire
 		(pts
@@ -2597,7 +2514,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 274.32 97.79 0)
+		(at 259.08 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2606,7 +2523,7 @@
 		(fields_autoplaced yes)
 		(uuid "05f51208-a88b-459b-a3d8-f4afb821ceed")
 		(property "Reference" "J4"
-			(at 275.59 96.5199 0)
+			(at 260.35 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,8 +2531,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 275.59 99.0599 0)
+		(property "Value" "LED_OUT"
+			(at 260.35 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,8 +2540,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B3P-VH-B_1x03_P3.96mm_Vertical"
-			(at 274.32 97.79 0)
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+			(at 259.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 97.79 0)
+			(at 259.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2559,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 274.32 97.79 0)
+			(at 259.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,76 +2736,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 256.54 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f2cdbc3-07bd-4a77-bc1b-313af072ffce")
-		(property "Reference" "C22"
-			(at 259.08 85.0962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 259.08 87.6362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 256.54 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 256.54 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6228b81-d627-4740-8ea9-7f16295ab8e2")
-		)
-		(pin "1"
-			(uuid "00d71f2e-79d5-48ac-a247-900e6b2e36af")
-		)
-		(instances
-			(project "Weltkatze"
-				(path "/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/7ac3c526-d879-43f8-8ab0-1a6e2ebcc84a"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 165.1 97.79 0)
 		(unit 1)
@@ -2991,7 +2838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -3061,7 +2908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -3131,7 +2978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 86.36 0)
 			(effects
 				(font
@@ -3201,7 +3048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 203.2 86.36 0)
 			(effects
 				(font
@@ -3340,7 +3187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 220.98 86.36 0)
 			(effects
 				(font
@@ -3552,7 +3399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 86.36 0)
 			(effects
 				(font
@@ -3841,7 +3688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -3911,7 +3758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -4131,7 +3978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.76 86.36 0)
 			(effects
 				(font
@@ -4309,81 +4156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 256.54 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dee03e83-6253-4246-bd11-edc56ee2c79d")
-		(property "Reference" "D13"
-			(at 252.222 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 261.874 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 257.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 259.08 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 256.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cdb0e828-2066-4b6b-90ee-27b0f73b658a")
-		)
-		(pin "1"
-			(uuid "517417b0-de9b-45c6-9770-3f5ec2de2344")
-		)
-		(pin "2"
-			(uuid "30a19b64-d99a-4548-bcc6-c5f5b2d3c97e")
-		)
-		(pin "4"
-			(uuid "cc5ac76d-49b4-4dc7-b65b-b87576eaff19")
-		)
-		(instances
-			(project "Weltkatze"
-				(path "/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/7ac3c526-d879-43f8-8ab0-1a6e2ebcc84a"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 91.44 86.36 0)
 		(unit 1)
@@ -4411,7 +4183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.44 86.36 0)
 			(effects
 				(font
@@ -4623,7 +4395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 86.36 0)
 			(effects
 				(font
