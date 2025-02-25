@@ -13,26 +13,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 125.095 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "045ca1d3-b726-478f-9753-6955954b8986")
-	)
-	(wire
-		(pts
-			(xy 116.205 80.645) (xy 120.65 80.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "078b9a66-a940-4d21-83da-b89c35ab0455")
-	)
-	(wire
-		(pts
 			(xy 116.205 90.17) (xy 123.19 90.17)
 		)
 		(stroke
@@ -53,13 +33,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.645) (xy 120.65 67.31)
+			(xy 116.205 81.28) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8422ad02-c206-4e1d-bf43-6bd0b3cc6d14")
+		(uuid "79be738a-fc20-4da8-bfc7-c3818ba329f2")
 	)
 	(wire
 		(pts
@@ -83,6 +63,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 67.31) (xy 125.095 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d263b2-aeed-4c1b-bfd8-3f756d57fc74")
+	)
+	(wire
+		(pts
 			(xy 147.32 86.36) (xy 152.4 86.36)
 		)
 		(stroke
@@ -90,6 +80,16 @@
 			(type default)
 		)
 		(uuid "f7d77dd8-f4fb-43a1-bb0b-7877c8412caf")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc89eac4-2fa6-4ab3-b6f6-3d57a5da9547")
 	)
 	(sheet
 		(at 123.19 84.455)
@@ -219,7 +219,7 @@
 			(uuid "57ad5180-8e8c-49fd-bc6c-3c0297b0c085")
 		)
 		(pin "USB_VBUS" input
-			(at 116.205 80.645 0)
+			(at 116.205 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

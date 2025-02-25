@@ -216,7 +216,13 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|2247900|177800|e209128b-1ed3-418c-872b-1d84b5976e44|8f12b5a1-85fa-463e-a2a7-1ad31c492dbf|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104",
+      "pin_to_pin|368300|1282700|62772b40-50ea-4900-994e-bf6eada127b1|57b7caeb-9ac6-4635-b18e-4224d2b716c4|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104",
+      "power_pin_not_driven|1066800|1790700|1eacba1f-4bf9-443e-b3cf-d51c8e5adc6a|00000000-0000-0000-0000-000000000000|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104|",
+      "power_pin_not_driven|1498600|304800|a86b2d1a-3d73-469b-89e0-575e45257ecd|00000000-0000-0000-0000-000000000000|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/e47e1b9a-d00f-4588-97a8-24e6f6c0e104|",
+      "power_pin_not_driven|381000|571500|a98ad1f3-ff9c-41a5-a7e7-cb57624f671b|00000000-0000-0000-0000-000000000000|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/3f5409d7-86b0-49a5-819a-a592e97a9128|/fdc0a18c-8dff-4a45-8df6-416fbc4de6f0/3f5409d7-86b0-49a5-819a-a592e97a9128|"
+    ],
     "meta": {
       "version": 0
     },
@@ -400,7 +406,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -563,14 +569,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
