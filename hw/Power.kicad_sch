@@ -4938,7 +4938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS61023DRLR:DRL0006A"
+		(property "Footprint" "lib:DRL0006A"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -7353,7 +7353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP4056:SOP127P600X175-9N"
+		(property "Footprint" "lib:SOP127P600X175-9N"
 			(at 62.23 60.96 0)
 			(effects
 				(font
