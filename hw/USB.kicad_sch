@@ -1642,7 +1642,7 @@
 		)
 		(uuid "793a6e68-2c94-4169-9c8e-ef9ce4e1a52e")
 	)
-	(hierarchical_label "USB_DN"
+	(hierarchical_label "USBD_N"
 		(shape input)
 		(at 68.58 82.55 0)
 		(effects
@@ -1653,7 +1653,7 @@
 		)
 		(uuid "7b681c12-2e0e-4aab-8b7d-bf4e08fc2ac3")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USBD_P"
 		(shape input)
 		(at 67.31 87.63 0)
 		(effects
@@ -1674,7 +1674,7 @@
 		(dnp no)
 		(uuid "22ccad4f-55fe-4d40-9c93-129b334c09b4")
 		(property "Reference" "J1"
-			(at 54.102 64.516 0)
+			(at 51.816 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
