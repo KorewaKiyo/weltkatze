@@ -59,7 +59,10 @@
         }
       ],
       "drc_exclusions": [
-        "items_not_allowed|67480418|57756304|84fe4c7d-925b-4e45-ab3c-9e45896d37e2|00000000-0000-0000-0000-000000000000"
+        "items_not_allowed|123958840|72830869|84fe4c7d-925b-4e45-ab3c-9e45896d37e2|00000000-0000-0000-0000-000000000000",
+        "unconnected_items|117856297|101916297|11c752b4-ce3d-489c-af5d-7fab9710e1a2|469a696d-b82e-4e93-9930-28dbeb1e8d4b",
+        "unconnected_items|135802846|77165270|05281707-95d8-40f9-a1b8-b1617e98c191|ba1d8f6f-dd65-44fd-84b0-00360539e9a4",
+        "unconnected_items|84268998|105910003|819673b4-b1e5-4c26-987f-14ce3bac0581|16a26ba0-abc6-40b2-811a-c5aeba3f31c5"
       ],
       "meta": {
         "version": 2
@@ -507,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Weltkatze.step",
       "svg": "",
       "vrml": ""
     },
