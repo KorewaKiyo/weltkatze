@@ -1,5 +1,8 @@
 ### Weltkatze 
 ## A full hardware replacement for a small battery powered nightlight, which includes a bottom case, PCB + Zigbee microcontroller
+Inspired by Blinkekatze
+## Why?
+It sounded like a fun challenge!
 
 
 
