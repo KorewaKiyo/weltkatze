@@ -9,5 +9,5 @@ It sounded like a fun challenge!
 
 # More to come as the project progresses 
 ### Images
-![animation](https://korewakiyo.github.io/weltkatze/animation.gif)
+![animation](https://korewakiyo.github.io/weltkatze/rotating.gif)
 rendered with [kicad-render](https://github.com/linalinn/kicad-render)
