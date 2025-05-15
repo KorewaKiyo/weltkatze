@@ -6,6 +6,6 @@
 
 # More to come as the project progresses 
 ### Images
-![top](<github_username>.github.io/<repo_name>/top.png)
-![bottom](<github_username>.github.io/<repo_name>/bottom.png)
+![top](korewakiyo.github.io/weltkatze/top.png)
+![bottom](korewakiyo.github.io/weltkatze/bottom.png)
 rendered with [kicad-render](https://github.com/linalinn/kicad-render)
