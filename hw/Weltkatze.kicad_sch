@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "fdc0a18c-8dff-4a45-8df6-416fbc4de6f0")
 	(paper "A4")
 	(title_block
@@ -74,6 +74,10 @@
 	(sheet
 		(at 123.19 85.09)
 		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -112,43 +116,43 @@
 		)
 		(pin "ESP_PWM" input
 			(at 147.32 87.63 0)
+			(uuid "6e5c48ba-e888-4f38-8160-4ba686d2766d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6e5c48ba-e888-4f38-8160-4ba686d2766d")
 		)
 		(pin "VBAT_MON" input
 			(at 135.89 85.09 90)
+			(uuid "3070e84b-8e60-4ddc-92ad-acf4ae0b694d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3070e84b-8e60-4ddc-92ad-acf4ae0b694d")
 		)
 		(pin "USBD_P" input
 			(at 123.19 86.36 180)
+			(uuid "c4bdd8ca-9435-428d-bcc4-f0e995b81f22")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c4bdd8ca-9435-428d-bcc4-f0e995b81f22")
 		)
 		(pin "USBD_N" input
 			(at 123.19 88.9 180)
+			(uuid "57011d52-0aaa-49e5-8076-3bab4b98dc54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "57011d52-0aaa-49e5-8076-3bab4b98dc54")
 		)
 		(instances
 			(project "Weltkatze"
@@ -161,6 +165,10 @@
 	(sheet
 		(at 93.345 78.74)
 		(size 22.225 17.145)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -190,33 +198,33 @@
 		)
 		(pin "USB_VBUS" input
 			(at 100.965 78.74 90)
+			(uuid "3282ecf3-1918-4711-a866-7170c08a3d8c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3282ecf3-1918-4711-a866-7170c08a3d8c")
 		)
 		(pin "USBD_N" input
 			(at 115.57 88.9 0)
+			(uuid "284bb848-5291-4ddf-97db-ae8666b64112")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "284bb848-5291-4ddf-97db-ae8666b64112")
 		)
 		(pin "USBD_P" input
 			(at 115.57 86.36 0)
+			(uuid "d7c05081-6a35-401c-ba00-e04e80973b46")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d7c05081-6a35-401c-ba00-e04e80973b46")
 		)
 		(instances
 			(project "Weltkatze"
@@ -229,6 +237,10 @@
 	(sheet
 		(at 152.4 80.01)
 		(size 17.78 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -258,13 +270,13 @@
 		)
 		(pin "LED_DIN" input
 			(at 152.4 87.63 180)
+			(uuid "ea203e68-dacd-44ab-9107-0f3afa68f6c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea203e68-dacd-44ab-9107-0f3afa68f6c5")
 		)
 		(instances
 			(project "Weltkatze"
@@ -277,6 +289,10 @@
 	(sheet
 		(at 125.73 63.5)
 		(size 15.875 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -306,23 +322,23 @@
 		)
 		(pin "USB_VBUS" input
 			(at 125.73 67.31 180)
+			(uuid "4cc959bc-c806-444d-ab8b-d2eac6794ce3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4cc959bc-c806-444d-ab8b-d2eac6794ce3")
 		)
 		(pin "VBAT_MON" input
 			(at 135.89 74.93 270)
+			(uuid "1b76dab4-b80e-417f-859c-8081a9726782")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1b76dab4-b80e-417f-859c-8081a9726782")
 		)
 		(instances
 			(project "Weltkatze"
@@ -337,4 +353,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
