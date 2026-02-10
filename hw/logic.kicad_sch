@@ -3835,6 +3835,10 @@
 		(uuid "fcf661ab-6342-4690-85e1-3bea3c2c115f")
 	)
 	(no_connect
+		(at 261.62 93.98)
+		(uuid "05ef063c-8533-4be0-8dff-7e31129d7441")
+	)
+	(no_connect
 		(at 115.57 72.39)
 		(uuid "51aff6c4-fa9e-422f-813d-7efa71c06052")
 	)
@@ -3845,6 +3849,18 @@
 	(no_connect
 		(at 59.69 52.07)
 		(uuid "66a872fe-8819-4dfc-bbc3-8980da86e1db")
+	)
+	(no_connect
+		(at 261.62 86.36)
+		(uuid "68bde719-9977-41ee-8fd9-db5ecf3caeac")
+	)
+	(no_connect
+		(at 261.62 83.82)
+		(uuid "6d3c3aa7-ad02-499e-8a8e-c35efca7a645")
+	)
+	(no_connect
+		(at 261.62 88.9)
+		(uuid "a302348e-66aa-4c6b-97af-4b7deee342c5")
 	)
 	(no_connect
 		(at 115.57 80.01)
@@ -4730,7 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 22.86) (xy 113.03 27.94)
+			(xy 113.03 22.86) (xy 113.03 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5128,6 +5144,16 @@
 		)
 		(uuid "197c14c4-6028-48d2-ac20-7f65fcbb46cc")
 	)
+	(label "USB_N"
+		(at 120.65 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e915438-8afb-46e9-9de4-5fa1ff44cab3")
+	)
 	(label "ESP_SDA"
 		(at 243.84 128.27 90)
 		(effects
@@ -5227,6 +5253,16 @@
 			(justify left bottom)
 		)
 		(uuid "a8a9a640-2036-4066-bd74-93a6c7df0bfa")
+	)
+	(label "USB_P"
+		(at 120.65 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0b92bbc-6c0f-4e18-93f3-10b231981d8c")
 	)
 	(label "VBAT_MON"
 		(at 43.18 64.77 90)
@@ -5735,7 +5771,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ba783c9-7eef-40d6-a1ee-3a8251492d9a")
 		(property "Reference" "U9"
 			(at 89.8241 34.29 0)
@@ -8077,7 +8112,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 113.03 27.94 180)
+		(at 113.03 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8085,7 +8120,7 @@
 		(dnp no)
 		(uuid "92aff21f-014b-4442-849d-30e810f90e1e")
 		(property "Reference" "#PWR39"
-			(at 113.03 24.13 0)
+			(at 113.03 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +8129,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 109.982 29.972 0)
+			(at 109.982 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 27.94 0)
+			(at 113.03 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 27.94 0)
+			(at 113.03 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +8155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.03 27.94 0)
+			(at 113.03 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

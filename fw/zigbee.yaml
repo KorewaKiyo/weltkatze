@@ -1,0 +1,30 @@
+esphome:
+  name: weltkatze
+
+esp32:
+  board: esp32-c6-devkitc-1
+  framework:
+    type: esp-idf
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  - platform: esphome
+    password: ""
+
+wifi:
+  ssid: "kIYO"
+  password: "Password"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Weltkatze Fallback Hotspot"
+    password: "SUpsGD68G7yj"
+
+captive_portal:
+    
