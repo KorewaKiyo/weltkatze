@@ -13,23 +13,23 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 123.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f3796a-7531-40e2-b9fe-b7ce11424e76")
-	)
-	(wire
-		(pts
 			(xy 115.57 86.36) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1a80b3f-a1a0-4620-b8f6-2f1bbf50c02b")
+		(uuid "138f6e1d-bcec-4aa6-a073-110a447655fb")
+	)
+	(wire
+		(pts
+			(xy 115.57 88.9) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dc6ad2-bff7-42ee-a67f-229a9a2a0b5c")
 	)
 	(wire
 		(pts
